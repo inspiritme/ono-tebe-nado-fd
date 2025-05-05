@@ -223,8 +223,9 @@
   display: flex;
   justify-content: space-between;
   height: 180px;
-  margin-top: 180px;
+  margin-top: 200px;
   padding: 0 48px;
+  border: 1px solid red;
 }
 .header__menu {
   text-align: center;
