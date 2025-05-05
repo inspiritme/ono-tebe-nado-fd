@@ -8,7 +8,6 @@
 body {
   margin: 0;
   color: #000000;
-  font-family: Raleway, sans-serif;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px; /*18px*/
@@ -29,7 +28,6 @@ blockquote {
   padding: 0;
 }
 a {
-  color: inherit;
   color: #000;
   text-underline-offset: 4px;
 }

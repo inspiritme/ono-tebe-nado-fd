@@ -220,7 +220,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  min-height: 180px;
+  height: 180px;
   margin-top: 180px;
   padding: 0 48px;
 }
