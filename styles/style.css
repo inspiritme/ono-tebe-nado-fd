@@ -188,7 +188,6 @@
   padding: 0 24px;
 }
 .about__column {
-  border: 1px solid red;
 }
 .about__column:nth-child(1) {
   margin: 0 auto;
