@@ -218,15 +218,16 @@
 }
 .about__text {
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0;
-  padding-top: 20px;
+}
+.about__text p {
+  line-height: 24px;
 }
 .footer {
   display: flex;
   justify-content: space-between;
   height: 180px;
-  margin-top: 230px;
+  margin-top: 180px;
   padding: 0 48px;
 }
 .header__menu {
