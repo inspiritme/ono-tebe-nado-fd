@@ -111,6 +111,8 @@
   font: inherit;
   text-transform: uppercase;
   background-color: transparent;
+  min-width: 256px;
+  min-height: 51px;
 }
 .lots {
   margin-top: 182px;
