@@ -184,8 +184,11 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 24px;
-  margin-top: 120px;
+  margin-top: 155px;
   padding: 0 24px;
+}
+.about__column {
+  border: 1px solid red;
 }
 .about__column:nth-child(1) {
   margin: 0 auto;
@@ -210,11 +213,11 @@
   text-transform: uppercase;
 }
 .about__text p:nth-child(1) {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 .about__text {
   font-size: 20px;
-  line-height: 1.33rem;
+  line-height: 24px;
   letter-spacing: 0;
 }
 .footer {
