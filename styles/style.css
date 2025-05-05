@@ -190,6 +190,7 @@
   padding: 0 24px;
 }
 .about__column {
+  padding-top: 10px;
 }
 .about__column:nth-child(1) {
   margin: 0 auto;
