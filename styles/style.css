@@ -22,7 +22,7 @@ a {
 .header__links-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 13px;
+  gap: 11px;
   margin: 0;
   padding: 0;
   list-style: circle;
@@ -143,7 +143,7 @@ a {
   position: relative;
   z-index: 2;
   max-width: 334px;
-  min-height: 598px;
+  min-height: 596px;
 }
 .card_type_film {
   background: url(../images/card-lot-01.jpg) no-repeat center / cover;
@@ -190,7 +190,7 @@ a {
   display: grid;
   min-height: 595px;
   grid-template-columns: 334px 1fr;
-  gap: 24px;
+  gap: 25px;
   margin-top: 155px;
   padding: 0 24px;
 }
