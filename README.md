@@ -1,1 +1,1 @@
-https://github.com/inspiritme/ono-tebe-nado
+https://github.com/inspiritme/ono-tebe-nado.fd
