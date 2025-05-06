@@ -5,18 +5,18 @@ a {
   text-underline-offset: 4px;
 }
 .container {
-  background-color: #fff;
+  color: #000000;
   font-weight: 400;
   font-size: 18px;
-  color: #000000;
   letter-spacing: 0;
+  background-color: #fff;
 }
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
   width: 100%;
+  min-height: 293px;
   padding: 0 50px;
 }
 .header__links-list {
@@ -54,11 +54,11 @@ a {
 }
 .cover {
   position: relative;
+  z-index: 1;
   width: 1100px;
   max-height: 757px;
-  z-index: 1;
-  background: url(../images/cover.jpg) no-repeat center / cover;
   padding: 160px 0 0;
+  background: url(../images/cover.jpg) no-repeat center / cover;
 }
 .overlay {
   position: absolute;
@@ -81,10 +81,9 @@ a {
 }
 .accent-span {
   display: block;
-  letter-spacing: 0.3em;
   padding: 0 50px;
+  letter-spacing: 0.3em;
 }
-
 .aligned-text {
   text-align: left;
 }
@@ -93,8 +92,8 @@ a {
   text-align: center;
 }
 .aligned-text_right {
-  text-align: right;
   padding-right: 50px;
+  text-align: right;
 }
 .no-letter-spacing {
   letter-spacing: 0;
@@ -112,18 +111,18 @@ a {
   word-spacing: 0.9em;
 }
 .bet-button {
+  min-width: 256px;
+  min-height: 51px;
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-  min-width: 256px;
-  min-height: 51px;
 }
 .lots {
-  margin-top: 180px;
   min-height: 723px;
+  margin-top: 180px;
   padding: 0 24px;
 }
 .lots__heading {
@@ -188,23 +187,20 @@ a {
 }
 .about {
   display: grid;
-  min-height: 595px;
   grid-template-columns: 334px 1fr;
   gap: 25px;
+  min-height: 595px;
   margin-top: 155px;
   padding: 0 24px;
 }
-.about__column {
-}
 .about__column:first-child {
-  padding: 0;
   margin: 0 auto;
+  padding: 0;
 }
-
 .about__column:last-child {
   max-width: 690px;
-  line-height: 24px;
   min-height: 449px;
+  line-height: 24px;
 }
 .about__logo {
   display: flex;
@@ -212,16 +208,16 @@ a {
   align-items: center;
   width: 240px;
   height: 240px;
+  margin: 0 auto;
   border-radius: 50%;
   background-color: #000;
-  margin: 0 auto;
 }
 .about__logo-image {
   width: 148px;
 }
 .about__title {
-  padding-top: 100px;
   margin-bottom: 110px;
+  padding-top: 100px;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -229,10 +225,9 @@ a {
 }
 .about__text p {
   margin-bottom: 24px;
-  letter-spacing: 1;
   font-size: 20px;
+  letter-spacing: 1;
 }
-
 .footer {
   display: flex;
   justify-content: space-between;
