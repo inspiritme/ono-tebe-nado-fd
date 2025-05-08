@@ -16,8 +16,7 @@ a {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 100%;
-  min-height: 293px;
-  padding: 0 50px;
+  padding: 92px 50px 96px;
 }
 .header__links-list {
   display: flex;
@@ -46,6 +45,7 @@ a {
 }
 .address {
   max-width: 240px;
+  font-style: normal;
   line-height: 24.3px;
   list-style: none;
 }
@@ -56,15 +56,14 @@ a {
   position: relative;
   z-index: 1;
   width: 1100px;
-  max-height: 757px;
-  padding: 160px 0 0;
+  padding: 155px 0 0;
   background: url(../images/cover.jpg) no-repeat center / cover;
 }
 .overlay {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: url(../images/overlay.png) no-repeat center / cover;
+  background-color: rgb(0 0 0 / 0.6);
 }
 .cover__content {
   position: relative;
@@ -74,25 +73,25 @@ a {
   color: #fff;
 }
 .cover__title {
+  padding: 5px 50px 0 50px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
+  text-align: center;
   text-transform: uppercase;
 }
 .accent-span {
   display: block;
-  padding: 0 50px;
   letter-spacing: 0.3em;
 }
 .aligned-text {
   text-align: left;
 }
 .aligned-text_center {
-  margin: 23px 0 20px 25px;
+  margin: 20px 0 20px 30px;
   text-align: center;
 }
 .aligned-text_right {
-  padding-right: 50px;
   text-align: right;
 }
 .no-letter-spacing {
@@ -102,7 +101,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 106px 47px 50px;
+  padding: 106px 50px 50px;
 }
 .cover__description-text {
   font-size: 22px;
@@ -112,7 +111,6 @@ a {
 }
 .bet-button {
   min-width: 256px;
-  min-height: 51px;
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
@@ -121,7 +119,6 @@ a {
   background-color: transparent;
 }
 .lots {
-  min-height: 723px;
   margin-top: 180px;
   padding: 0 24px;
 }
@@ -159,7 +156,6 @@ a {
   text-decoration: none;
 }
 .card {
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -189,8 +185,7 @@ a {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  min-height: 595px;
-  margin-top: 155px;
+  margin-top: 120px;
   padding: 0 24px;
 }
 .about__column:first-child {
@@ -199,7 +194,6 @@ a {
 }
 .about__column:last-child {
   max-width: 690px;
-  min-height: 449px;
   line-height: 24px;
 }
 .about__logo {
@@ -208,7 +202,7 @@ a {
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0 auto;
+  margin-top: 35px;
   border-radius: 50%;
   background-color: #000;
 }
@@ -216,8 +210,8 @@ a {
   width: 148px;
 }
 .about__title {
-  margin-bottom: 110px;
-  padding-top: 100px;
+  margin-bottom: 105px;
+  padding-top: 136px;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -231,8 +225,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 180px;
-  margin-top: 145px;
+  margin-top: 157px;
   padding: 0 50px;
 }
 .footer__menu {
